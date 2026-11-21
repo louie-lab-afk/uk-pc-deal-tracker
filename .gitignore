@@ -1,0 +1,4 @@
+# Keep local secrets and runtime state out of the main branch
+config.local.json
+data/
+*.log

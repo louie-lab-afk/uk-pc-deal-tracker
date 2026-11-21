@@ -1,0 +1,105 @@
+name: UK PC Deal & Misprice Tracker
+
+on:
+  schedule:
+    # Runs every 10 minutes 24/7 (100% free & unlimited on a PUBLIC repo).
+    # If you make this repo PRIVATE, change '*/10' to '*/30' to stay within
+    # GitHub's 2,000 free Actions minutes/month.
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_alert:
+        description: 'Send a test push notification to verify alerts'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Preview matched deals without sending alerts or saving state'
+        required: false
+        type: boolean
+        default: false
+      seed_baseline:
+        description: 'Refresh 30-day baseline and mark current deals as seen (no alerts)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: uk-pc-deal-tracker
+  cancel-in-progress: false
+
+jobs:
+  check-deals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Restore 30-day history & seen state
+        shell: bash
+        run: |
+          mkdir -p data
+          if git fetch -q origin tracker-state 2>/dev/null; then
+            git show origin/tracker-state:history.json > data/history.json 2>/dev/null || rm -f data/history.json
+            git show origin/tracker-state:seen.json > data/seen.json 2>/dev/null || rm -f data/seen.json
+            echo "FIRST_RUN=false" >> "$GITHUB_ENV"
+            echo "Restored state from tracker-state branch."
+          else
+            echo "FIRST_RUN=true" >> "$GITHUB_ENV"
+            echo "No tracker-state branch yet; first run will seed baseline."
+          fi
+
+      - name: Run UK PC Deal Tracker
+        shell: pwsh
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if ("${{ inputs.test_alert }}" -eq "true") {
+            ./check-deals.ps1 -TestAlert
+          }
+          elseif ("${{ inputs.dry_run }}" -eq "true") {
+            ./check-deals.ps1 -DryRun -ShowSummary
+          }
+          elseif ("${{ inputs.seed_baseline }}" -eq "true" -or $env:FIRST_RUN -eq "true") {
+            ./check-deals.ps1 -SeedBaseline
+          }
+          else {
+            ./check-deals.ps1
+          }
+
+      - name: Save updated state to tracker-state branch
+        if: ${{ inputs.test_alert != true && inputs.dry_run != true }}
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/state-repo
+          cd /tmp/state-repo
+          git init -q
+          git config user.name "UK PC Deal Tracker"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git fetch -q origin tracker-state 2>/dev/null; then
+            git checkout -q -B tracker-state origin/tracker-state
+          else
+            git checkout -q --orphan tracker-state
+          fi
+
+          cp "${GITHUB_WORKSPACE}/data/history.json" ./history.json 2>/dev/null || true
+          cp "${GITHUB_WORKSPACE}/data/seen.json" ./seen.json 2>/dev/null || true
+
+          git add history.json seen.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Update deal tracker state"
+            git push -q origin tracker-state
+            echo "Saved updated state to tracker-state branch."
+          else
+            echo "No state changes to save."
+          fi

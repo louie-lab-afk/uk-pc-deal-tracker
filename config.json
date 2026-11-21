@@ -1,0 +1,189 @@
+{
+  "alerts": {
+    "discord_webhook_url": "",
+    "ntfy_server": "https://ntfy.sh",
+    "ntfy_topic": "",
+    "windows_toast": false,
+    "min_alert_tier": "SALE"
+  },
+  "general": {
+    "history_window_days": 30,
+    "min_history_samples_for_30d_low": 3,
+    "realert_drop_percent": 5,
+    "request_timeout_sec": 15,
+    "max_log_lines": 500
+  },
+  "misprice_rules": {
+    "min_discount_percent_misprice": 55,
+    "min_discount_percent_sale": 30,
+    "keywords": [
+      "misprice",
+      "price error",
+      "pricing error",
+      "price mistake",
+      "glitch",
+      "all time low",
+      "all-time low",
+      "historic low",
+      "lowest ever",
+      "90% off",
+      "95% off",
+      "80% off"
+    ]
+  },
+  "feeds": [
+    {
+      "name": "HUKD-SSD",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/ssd",
+      "default_category": "nvme_ssd"
+    },
+    {
+      "name": "HUKD-Storage",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/storage",
+      "default_category": null
+    },
+    {
+      "name": "HUKD-GPU",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/graphics-card",
+      "default_category": "gpu"
+    },
+    {
+      "name": "HUKD-CPU",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/cpu",
+      "default_category": "cpu"
+    },
+    {
+      "name": "HUKD-RAM",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/ram",
+      "default_category": "ddr5_ram"
+    },
+    {
+      "name": "HUKD-Motherboard",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/motherboard",
+      "default_category": "motherboard"
+    },
+    {
+      "name": "HUKD-Computing",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/tag/computing",
+      "default_category": null
+    },
+    {
+      "name": "HUKD-New",
+      "type": "hotukdeals",
+      "url": "https://www.hotukdeals.com/rss/new",
+      "default_category": null
+    },
+    {
+      "name": "CamelUK-TopRelativeDrops",
+      "type": "camelcamelcamel",
+      "url": "https://uk.camelcamelcamel.com/top_drops/feed?t=relative&i=1&s=relative",
+      "default_category": null
+    },
+    {
+      "name": "CamelUK-DailyDrops",
+      "type": "camelcamelcamel",
+      "url": "https://uk.camelcamelcamel.com/top_drops/feed?t=relative&i=1",
+      "default_category": null
+    }
+  ],
+  "categories": {
+    "nvme_ssd": {
+      "enabled": true,
+      "label": "NVMe M.2 SSD",
+      "include_regex": "(?i)\\b(nvme|m\\.2|m2\\s*2280|m2\\s*2230|2280|pcie\\s*(gen\\s*)?[345](\\.0)?\\s*(x4)?\\s*(nvme|ssd)|990\\s*pro|990\\s*evo|9100\\s*pro|980\\s*pro|sn850x|sn770|sn580|sn3000|p3\\s*plus|p5\\s*plus|t500|t700|kc3000|fury\\s*renegade|nm790|firecuda\\s*5[234]0)\\b",
+      "exclude_regex": "(?i)\\b(nas\\b|synology|ugreen\\s+dxp|qnap|[2468]-bay|ups\\s+bundle|enclosure|caddy|adapter|dock|cloner|heatsink\\s+only|thermal\\s+pad|portable|external|usb-c|usb\\s*3\\.|thunderbolt|magsafe|laptop|notebook|desktop\\s+pc|gaming\\s+pc|gaming\\s+desktop|mini\\s+pc|handheld|console|playstation|ps5\\s+console|steam\\s+deck|screw|standoff|case\\s+for|motherboard|mainboard)\\b",
+      "min_capacity_tb": 1.0,
+      "max_capacity_tb": 16.0,
+      "sale_gbp_per_tb_2tb_plus": 65.0,
+      "misprice_gbp_per_tb_2tb_plus": 45.0,
+      "misprice_gbp_per_tb_1tb": 45.0,
+      "min_valid_price_gbp": 1.0
+    },
+    "gpu": {
+      "enabled": true,
+      "label": "Graphics Card (GPU)",
+      "include_regex": "(?i)\\b(rtx\\s*[45]0[56789]0(\\s*(ti|super))?|rx\\s*[79][6789]00(\\s*(xt|xtx|gre))?|rx\\s*90[67]0(\\s*xt)?|arc\\s*[ab][57][78]0|graphics\\s+card|geforce\\s+rtx|radeon\\s+rx)\\b",
+      "exclude_regex": "(?i)(\\b(desktop\\s+pc|gaming\\s+pc|gaming\\s+desktop|mini\\s+pc|prebuilt|pre-built|tower\\s+pc|cyberpowerpc|stormforce|omen\\s+\\d+l|fusion\\s+\\d+|laptop|notebook|handheld|console|waterblock|water\\s+block|riser\\s+cable|support\\s+bracket|sag\\s+bracket|gpu\\s+holder|replacement\\s+fan|backplate|cablemod|12vhpwr|power\\s+supply|psu|monitor)\\b|(\\b(ryzen\\s+[3579]|core\\s+(i[3579]|ultra))\\b.*\\b(16gb|32gb|64gb|512gb|1tb|2tb)\\b))",
+      "misprice_max_price_gbp": 120.0,
+      "min_valid_price_gbp": 1.0,
+      "watched_models": {
+        "rtx 5090": 1500,
+        "rtx 5080": 850,
+        "rtx 5070 ti": 620,
+        "rtx 5070": 450,
+        "rtx 5060 ti": 330,
+        "rtx 4090": 1200,
+        "rtx 4080 super": 750,
+        "rtx 4070 ti super": 580,
+        "rtx 4070 super": 450,
+        "rx 9070 xt": 560,
+        "rx 9070": 460,
+        "rx 9060 xt": 280,
+        "rx 7900 xtx": 650,
+        "rx 7900 xt": 500,
+        "rx 7800 xt": 360
+      }
+    },
+    "cpu": {
+      "enabled": true,
+      "label": "CPU / Processor",
+      "include_regex": "(?i)\\b(ryzen\\s*[579]\\s*[5789][56789][05]0(\\s*x3d|x3d|x|xt|g|f)?|core\\s+ultra\\s*[579]\\s*(?:processor\\s+)?2\\d{2}[a-z]*|core\\s+i[579][\\s-]*1[234][4679]00k?f?|threadripper)\\b",
+      "exclude_regex": "(?i)\\b(cooler|air\\s+cooler|aio|liquid\\s+cooler|heatsink|thermal\\s+paste|contact\\s+frame|lga\\s*1700\\s+frame|desktop\\s+pc|gaming\\s+pc|gaming\\s+desktop|prebuilt|mini\\s+pc|cyberpowerpc|stormforce|omen\\s+\\d+l|fusion\\s+\\d+|laptop|notebook|handheld|console|ally|legion\\s+go|motherboard|mainboard|geforce|radeon\\s+rx)\\b",
+      "misprice_max_price_gbp": 65.0,
+      "min_valid_price_gbp": 1.0,
+      "watched_models": {
+        "9950x3d": 500,
+        "9850x3d": 340,
+        "9800x3d": 300,
+        "7800x3d": 200,
+        "9950x": 350,
+        "9900x": 270,
+        "9700x": 210,
+        "9600x": 145,
+        "7950x3d": 380,
+        "7700x": 180,
+        "7600x": 130,
+        "14900k": 320,
+        "14700k": 240,
+        "285k": 380,
+        "270k": 250,
+        "265k": 220
+      }
+    },
+    "ddr5_ram": {
+      "enabled": true,
+      "label": "DDR5 RAM",
+      "include_regex": "(?i)\\bddr5\\b",
+      "exclude_regex": "(?i)\\b(motherboard|mainboard|b650|b850|x670|x870|b760|z790|b860|z890|processor|ryzen|core\\s+ultra|core\\s+i[3579]|cpu\\b|sodimm|so-dimm|262\\s*-?\\s*pin|laptop|notebook|desktop\\s+pc|gaming\\s+pc|gaming\\s+desktop|mini\\s+pc|handheld|nas\\b|ddr4)\\b",
+      "sale_gbp_per_gb": 3.5,
+      "misprice_gbp_per_gb": 2.0,
+      "min_capacity_gb": 16,
+      "min_valid_price_gbp": 1.0
+    },
+    "motherboard": {
+      "enabled": true,
+      "label": "Motherboard",
+      "include_regex": "(?i)\\b(b650e?|b850|x670e?|x870e?|b760|z790|b860|z890)[a-z0-9-]*\\b",
+      "exclude_regex": "(?i)\\b(a520|a320|h610|h510|h410|ddr3|n3700|braswell|desktop\\s+pc|gaming\\s+pc|gaming\\s+desktop|prebuilt|laptop|notebook|case\\s+fan|cable|adapter|standoff|screw|wifi\\s+card|ram\\s+kit|memory\\s+kit|dimm\\s+kit)\\b",
+      "misprice_max_price_gbp": 45.0,
+      "sale_max_price_gbp": 85.0,
+      "min_valid_price_gbp": 1.0,
+      "watched_models": {
+        "x870e": 220,
+        "x870": 160,
+        "b850": 115,
+        "b650e": 130,
+        "b650": 85,
+        "z890": 150,
+        "z790": 120
+      }
+    }
+  }
+}
