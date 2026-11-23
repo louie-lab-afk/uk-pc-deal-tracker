@@ -1,89 +1,20 @@
 {
-  "cpu:270k": [
+  "cpu:7800x3d": [
     {
-      "id": "hukd-5036305",
-      "price": 259.99,
-      "metric": 259.99,
-      "title": "Intel Core Ultra 7 Processor 270K Plus CPU Processor ( 24 cores - 8P + 16E / LGA1851 Socket / DDR5 / PCi-E 5.0 )",
+      "id": "hukd-5037356",
+      "price": 160.08,
+      "metric": 160.08,
+      "title": "AMD Ryzen 7 7800X3D CPU Processor ( 8C / Socket AM5 / 3D VCache / Tray ) w/code - £152.08 (PayPal)@ MTIME TRADER Store(UK Stock)",
       "ts": "2026-11-21T06:33:08.2447249Z"
     }
   ],
-  "gpu:rtx 5070": [
+  "cpu:9800x3d": [
     {
-      "id": "hukd-5031421",
-      "price": 572.41,
-      "metric": 572.41,
-      "title": "PNY GeForce RTX 5070 12GB Slim Dual Fan 2-Slot SFF-ready Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5023174",
-      "price": 596.74,
-      "metric": 596.74,
-      "title": "ASUS Dual GeForce RTX 5070 12GB GDDR7 OC Edition",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5029480",
-      "price": 748.17,
-      "metric": 748.17,
-      "title": "ASUS DUAL RTX5070 OC, PCIe5, 12GB DDR7, HDMI, 3 DP, 2572MHz Clock, Overclocked, Compact SFF-Ready",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "ddr5_ram:16GB": [
-    {
-      "id": "hukd-5023260",
-      "price": 160.94,
-      "metric": 10.06,
-      "title": "CUSU DDR5 Memory RAM 16GB 6000MHz - With Code - Sold by CUSU Official Store",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "gpu:rx 9060 xt": [
-    {
-      "id": "hukd-5024881",
-      "price": 457.29,
-      "metric": 457.29,
-      "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 White Edition",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "ddr5_ram:32GB": [
-    {
-      "id": "hukd-5032634",
-      "price": 389.05,
-      "metric": 12.16,
-      "title": "KLEVV FIT V DDR5 32GB (2x 16GB) 6000MHz CL30 Gaming Memory RAM kit - Amazon EU",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5024820",
-      "price": 399.95,
-      "metric": 12.5,
-      "title": "V-Color Manta XSky RGB EXPO 32GB (2x16GB) DDR5 C28 6000MHz RAM Memory",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5026645",
-      "price": 332.11,
-      "metric": 10.38,
-      "title": "CUSU DDR5 Memory RAM 32GB 16GB X2 5600MHz CUSU Official Store (Inc VAT)",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5025925",
-      "price": 398.99,
-      "metric": 12.47,
-      "title": "Klevv Fit V 2 × 16GB DDR5 RAM 6000Mhz CL30 - Black",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5022667",
-      "price": 399.95,
-      "metric": 12.5,
-      "title": "V-Color Manta XSky RGB EXPO 32GB (2x16GB) DDR5 C30 6000MHz Dual Channel Kit - Black - w/Code",
-      "ts": "2026-11-21T06:33:08.2447249Z"
+      "id": "hukd-5042139",
+      "price": 149.99,
+      "metric": 149.99,
+      "title": "AMD Ryzen 7 9800X3D 8 Core/16 Thread AM5 CPU",
+      "ts": "2026-11-21T20:45:09.2053787Z"
     }
   ],
   "cpu": [
@@ -144,13 +75,172 @@
       "ts": "2026-11-21T06:33:08.2447249Z"
     }
   ],
-  "cpu:9800x3d": [
+  "cpu:9700x": [
     {
-      "id": "hukd-5042139",
-      "price": 149.99,
-      "metric": 149.99,
-      "title": "AMD Ryzen 7 9800X3D 8 Core/16 Thread AM5 CPU",
-      "ts": "2026-11-21T20:45:09.2053787Z"
+      "id": "hukd-5039309",
+      "price": 127.1,
+      "metric": 127.1,
+      "title": "Ryzen 7 9700X CPU Processor - £119.10 PayPal ( 8C / 16T / Zen5 / DDR5 / PCI-e 5.0 ) w/code @ CAMHTOO LTD Store(UK Stock)",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "ddr5_ram:16GB": [
+    {
+      "id": "hukd-5023260",
+      "price": 160.94,
+      "metric": 10.06,
+      "title": "CUSU DDR5 Memory RAM 16GB 6000MHz - With Code - Sold by CUSU Official Store",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rtx 5070 ti": [
+    {
+      "id": "hukd-5034069",
+      "price": 989.99,
+      "metric": 989.99,
+      "title": "ASUS ProArt NVIDIA GeForce RTX 5070 Ti OC Edition, 16GB GDDR7, 256 Bit, PCIe 5.0, 2.5 Slot",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "nvme_ssd:1TB": [
+    {
+      "id": "hukd-5036297",
+      "price": 139.99,
+      "metric": 139.99,
+      "title": "1TB Samsung SSD 990 M.2 NVMe SSD PCIe 4.0 x4 Up to 7,150/6,450 MB/s Read/Write",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5039389",
+      "price": 124.49,
+      "metric": 124.49,
+      "title": "Acer Predator GM7 1TB SSD, M.2 2280 PCIe Gen 4 x4 NVMe - Sold by BIWIN Tech / FBA",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5035264",
+      "price": 188.0,
+      "metric": 188.0,
+      "title": "9100 PRO, PCIe 5.0, NVMe M.2 SSD 1TB / 2TB £360.00",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5039237",
+      "price": 127.49,
+      "metric": 127.49,
+      "title": "Lexar EQ790 1TB nvme ssd m2 - Sold by YISAVE TECHNOLOGY (HK) / FBA",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5037294",
+      "price": 109.98,
+      "metric": 109.98,
+      "title": "Sandisk WD Green SN3000 1TB M.2 (2280) PCIe Gen 4 NVMe SSD / Solid State Drive OEM",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5042513",
+      "price": 219.99,
+      "metric": 219.99,
+      "title": "Samsung Memory MZ-VAP1T0CW 9100 PRO 1TB Internal SSD with Heat Sink, PCIe 5.0 x4, NVMe 2.0, SSD",
+      "ts": "2026-11-22T15:39:03.6491428Z"
+    },
+    {
+      "id": "hukd-5042594",
+      "price": 115.99,
+      "metric": 115.99,
+      "title": "1TB Kingston NV3 M.2 2280 PCI Express 4.0 x4 NVMe Solid State Drive",
+      "ts": "2026-11-22T15:39:03.6491428Z"
+    },
+    {
+      "id": "hukd-5043485",
+      "price": 103.61,
+      "metric": 103.61,
+      "title": "KingSpec 1TB NVMe SSD Up to 3500MB/s PCIe Gen3 x4 M.2 2280 Internal Solid State Drive - Sold by KingSpec Storage / FBA",
+      "ts": "2026-11-23T09:52:32.7560191Z"
+    }
+  ],
+  "ddr5_ram:32GB": [
+    {
+      "id": "hukd-5032634",
+      "price": 389.05,
+      "metric": 12.16,
+      "title": "KLEVV FIT V DDR5 32GB (2x 16GB) 6000MHz CL30 Gaming Memory RAM kit - Amazon EU",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5024820",
+      "price": 399.95,
+      "metric": 12.5,
+      "title": "V-Color Manta XSky RGB EXPO 32GB (2x16GB) DDR5 C28 6000MHz RAM Memory",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5026645",
+      "price": 332.11,
+      "metric": 10.38,
+      "title": "CUSU DDR5 Memory RAM 32GB 16GB X2 5600MHz CUSU Official Store (Inc VAT)",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5025925",
+      "price": 398.99,
+      "metric": 12.47,
+      "title": "Klevv Fit V 2 × 16GB DDR5 RAM 6000Mhz CL30 - Black",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5022667",
+      "price": 399.95,
+      "metric": 12.5,
+      "title": "V-Color Manta XSky RGB EXPO 32GB (2x16GB) DDR5 C30 6000MHz Dual Channel Kit - Black - w/Code",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rx 9070": [
+    {
+      "id": "hukd-5029849",
+      "price": 589.99,
+      "metric": 589.99,
+      "title": "Sapphire Pulse AMD Radeon RX 9070 Gaming 16GB Dual HDMI and DP, GDDR6",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5041839",
+      "price": 679.99,
+      "metric": 679.99,
+      "title": "PowerColor Reaper AMD Radeon RX 9070 16GB GDDR6 Graphics Card - Sold by Realtime Distribution / FBA",
+      "ts": "2026-11-21T14:53:41.285796Z"
+    },
+    {
+      "id": "hukd-5042363",
+      "price": 539.0,
+      "metric": 539.0,
+      "title": "PowerColor Reaper AMD Radeon RX 9070 GRE 12Gb GDDR6 PCIe 5.0 Graphics Card",
+      "ts": "2026-11-22T00:43:21.3827112Z"
+    }
+  ],
+  "motherboard:b850": [
+    {
+      "id": "hukd-5040931",
+      "price": 179.02,
+      "metric": 179.02,
+      "title": "ASUS ROG Strix B850-A Gaming WiFi AMD ATX motherboard, 14+2+2 power stages, DDR5 slots, four M.2 slots, PCIe 5.0, WiFi 7",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5035248",
+      "price": 189.99,
+      "metric": 189.99,
+      "title": "MSI MPG B850 EDGE TI WIFI Motherboard, ATX, AM5",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5036123",
+      "price": 132.48,
+      "metric": 132.48,
+      "title": "GIGABYTE B850 AORUS Elite WIFI7 Ice Motherboard - White",
+      "ts": "2026-11-21T06:33:08.2447249Z"
     }
   ],
   "motherboard:x870e": [
@@ -166,6 +256,150 @@
       "price": 259.99,
       "metric": 259.99,
       "title": "GIGABYTE X870E AORUS ELITE X3D Motherboard - Supports AMD Ryzen 9000 CPUs, 16+2+2 Phases Digital VRM, up to 9000Hz DDR5 (OC)",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "cpu:270k": [
+    {
+      "id": "hukd-5036305",
+      "price": 259.99,
+      "metric": 259.99,
+      "title": "Intel Core Ultra 7 Processor 270K Plus CPU Processor ( 24 cores - 8P + 16E / LGA1851 Socket / DDR5 / PCi-E 5.0 )",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rx 9060 xt": [
+    {
+      "id": "hukd-5024881",
+      "price": 457.29,
+      "metric": 457.29,
+      "title": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 White Edition",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rtx 5090": [
+    {
+      "id": "hukd-5041639",
+      "price": 5699.99,
+      "metric": 5699.99,
+      "title": "Zotac GeForce RTX 5090 Solid OC 32GB GDDR7 PCI-Express Graphics Card",
+      "ts": "2026-11-21T14:53:41.285796Z"
+    }
+  ],
+  "motherboard:x870": [
+    {
+      "id": "hukd-5023199",
+      "price": 180.34,
+      "metric": 180.34,
+      "title": "ASUS ROG Strix X870-I Gaming WiFi, AMD Mini-ITX motherboard, for AMD AM5 Ryzen 9800X3D / 9000 / 8000 / 7000 Processor",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rtx 5070": [
+    {
+      "id": "hukd-5031421",
+      "price": 572.41,
+      "metric": 572.41,
+      "title": "PNY GeForce RTX 5070 12GB Slim Dual Fan 2-Slot SFF-ready Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5023174",
+      "price": 596.74,
+      "metric": 596.74,
+      "title": "ASUS Dual GeForce RTX 5070 12GB GDDR7 OC Edition",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5029480",
+      "price": 748.17,
+      "metric": 748.17,
+      "title": "ASUS DUAL RTX5070 OC, PCIe5, 12GB DDR7, HDMI, 3 DP, 2572MHz Clock, Overclocked, Compact SFF-Ready",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "motherboard:z890": [
+    {
+      "id": "hukd-5019578",
+      "price": 110.99,
+      "metric": 110.99,
+      "title": "Asrock Z890 Pro RS (LGA 1851) DDR5 ATX Motherboard",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rtx 5080": [
+    {
+      "id": "hukd-5041435",
+      "price": 1500.0,
+      "metric": 1500.0,
+      "title": "MSI GeForce RTX 5080 16G VENTUS 3X OC BLACK Graphics Card, 16GB GDDR7, Triple-Fan Cooling, HDMI and DisplayPort",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu": [
+    {
+      "id": "hukd-5036537",
+      "price": 280.95,
+      "metric": 280.95,
+      "title": "ASRock Intel Arc B570 Challenger OC 10GB GDDR6 Dual Fan Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5027023",
+      "price": 1599.95,
+      "metric": 1599.95,
+      "title": "PowerColor Radeon AI PRO R9700 32GB GDDR6 PCI-Express Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5039072",
+      "price": 279.99,
+      "metric": 279.99,
+      "title": "Gigabyte NVIDIA GeForce RTX 4060 EAGLE OC Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5027574",
+      "price": 347.99,
+      "metric": 347.99,
+      "title": "Gigabyte AORUS NVIDIA GeForce RTX 5060 Elite 8GB Blackwell Graphics Card (pre order)",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5036281",
+      "price": 239.99,
+      "metric": 239.99,
+      "title": "PowerColor AMD Radeon RX 7600 Fighter 8GB Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5027030",
+      "price": 1399.99,
+      "metric": 1399.99,
+      "title": "ASRock Intel ARC Pro B70 Creator 32GB GDDR6 PCI-Express Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    }
+  ],
+  "gpu:rx 9070 xt": [
+    {
+      "id": "hukd-5036363",
+      "price": 689.99,
+      "metric": 689.99,
+      "title": "XFX Quicksilver AMD Radeon RX 9070 XT White Magnetic Air Gaming Graphics Card",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5036419",
+      "price": 695.64,
+      "metric": 695.64,
+      "title": "Sapphire PULSE AMD RADEON RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP - Sold by Amazon Resale (Like New Condition) Discount at Checkout",
+      "ts": "2026-11-21T06:33:08.2447249Z"
+    },
+    {
+      "id": "hukd-5031430",
+      "price": 699.0,
+      "metric": 699.0,
+      "title": "ASUS PRIME RX9070 XT OC",
       "ts": "2026-11-21T06:33:08.2447249Z"
     }
   ],
@@ -269,35 +503,12 @@
       "ts": "2026-11-22T21:16:01.8595589Z"
     }
   ],
-  "gpu:rx 9070": [
+  "cpu:9950x": [
     {
-      "id": "hukd-5029849",
-      "price": 589.99,
-      "metric": 589.99,
-      "title": "Sapphire Pulse AMD Radeon RX 9070 Gaming 16GB Dual HDMI and DP, GDDR6",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5041839",
-      "price": 679.99,
-      "metric": 679.99,
-      "title": "PowerColor Reaper AMD Radeon RX 9070 16GB GDDR6 Graphics Card - Sold by Realtime Distribution / FBA",
-      "ts": "2026-11-21T14:53:41.285796Z"
-    },
-    {
-      "id": "hukd-5042363",
-      "price": 539.0,
-      "metric": 539.0,
-      "title": "PowerColor Reaper AMD Radeon RX 9070 GRE 12Gb GDDR6 PCIe 5.0 Graphics Card",
-      "ts": "2026-11-22T00:43:21.3827112Z"
-    }
-  ],
-  "motherboard:x870": [
-    {
-      "id": "hukd-5023199",
-      "price": 180.34,
-      "metric": 180.34,
-      "title": "ASUS ROG Strix X870-I Gaming WiFi, AMD Mini-ITX motherboard, for AMD AM5 Ryzen 9800X3D / 9000 / 8000 / 7000 Processor",
+      "id": "hukd-5037376",
+      "price": 341.72,
+      "metric": 341.72,
+      "title": "AMD Ryzen 9 9950X CPU Processor - £316.72 PayPal ( 16C / Socket AM5 / Tray ) @ CAMHTOO LTD Store(UK Stock)",
       "ts": "2026-11-21T06:33:08.2447249Z"
     }
   ],
@@ -373,51 +584,6 @@
       "ts": "2026-11-22T21:16:01.8595589Z"
     }
   ],
-  "gpu:rtx 5070 ti": [
-    {
-      "id": "hukd-5034069",
-      "price": 989.99,
-      "metric": 989.99,
-      "title": "ASUS ProArt NVIDIA GeForce RTX 5070 Ti OC Edition, 16GB GDDR7, 256 Bit, PCIe 5.0, 2.5 Slot",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "motherboard:z890": [
-    {
-      "id": "hukd-5019578",
-      "price": 110.99,
-      "metric": 110.99,
-      "title": "Asrock Z890 Pro RS (LGA 1851) DDR5 ATX Motherboard",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "gpu:rtx 5090": [
-    {
-      "id": "hukd-5041639",
-      "price": 5699.99,
-      "metric": 5699.99,
-      "title": "Zotac GeForce RTX 5090 Solid OC 32GB GDDR7 PCI-Express Graphics Card",
-      "ts": "2026-11-21T14:53:41.285796Z"
-    }
-  ],
-  "cpu:7800x3d": [
-    {
-      "id": "hukd-5037356",
-      "price": 160.08,
-      "metric": 160.08,
-      "title": "AMD Ryzen 7 7800X3D CPU Processor ( 8C / Socket AM5 / 3D VCache / Tray ) w/code - £152.08 (PayPal)@ MTIME TRADER Store(UK Stock)",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "gpu:rtx 5080": [
-    {
-      "id": "hukd-5041435",
-      "price": 1500.0,
-      "metric": 1500.0,
-      "title": "MSI GeForce RTX 5080 16G VENTUS 3X OC BLACK Graphics Card, 16GB GDDR7, Triple-Fan Cooling, HDMI and DisplayPort",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
   "motherboard:b650": [
     {
       "id": "hukd-5038982",
@@ -432,165 +598,13 @@
       "metric": 103.99,
       "title": "Gigabyte B650 EAGLE Motherboard - Supports AMD Ryzen 9000 CPUs- 12+2+2 Phases Digital VRM- up to 7600MHz DDR5 (OC)- 1xPCIe 5.0",
       "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "nvme_ssd:1TB": [
-    {
-      "id": "hukd-5036297",
-      "price": 139.99,
-      "metric": 139.99,
-      "title": "1TB Samsung SSD 990 M.2 NVMe SSD PCIe 4.0 x4 Up to 7,150/6,450 MB/s Read/Write",
-      "ts": "2026-11-21T06:33:08.2447249Z"
     },
     {
-      "id": "hukd-5039389",
-      "price": 124.49,
-      "metric": 124.49,
-      "title": "Acer Predator GM7 1TB SSD, M.2 2280 PCIe Gen 4 x4 NVMe - Sold by BIWIN Tech / FBA",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5035264",
-      "price": 188.0,
-      "metric": 188.0,
-      "title": "9100 PRO, PCIe 5.0, NVMe M.2 SSD 1TB / 2TB £360.00",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5039237",
-      "price": 127.49,
-      "metric": 127.49,
-      "title": "Lexar EQ790 1TB nvme ssd m2 - Sold by YISAVE TECHNOLOGY (HK) / FBA",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5037294",
-      "price": 109.98,
-      "metric": 109.98,
-      "title": "Sandisk WD Green SN3000 1TB M.2 (2280) PCIe Gen 4 NVMe SSD / Solid State Drive OEM",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5042513",
-      "price": 219.99,
-      "metric": 219.99,
-      "title": "Samsung Memory MZ-VAP1T0CW 9100 PRO 1TB Internal SSD with Heat Sink, PCIe 5.0 x4, NVMe 2.0, SSD",
-      "ts": "2026-11-22T15:39:03.6491428Z"
-    },
-    {
-      "id": "hukd-5042594",
-      "price": 115.99,
-      "metric": 115.99,
-      "title": "1TB Kingston NV3 M.2 2280 PCI Express 4.0 x4 NVMe Solid State Drive",
-      "ts": "2026-11-22T15:39:03.6491428Z"
-    }
-  ],
-  "gpu:rx 9070 xt": [
-    {
-      "id": "hukd-5036363",
-      "price": 689.99,
-      "metric": 689.99,
-      "title": "XFX Quicksilver AMD Radeon RX 9070 XT White Magnetic Air Gaming Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5036419",
-      "price": 695.64,
-      "metric": 695.64,
-      "title": "Sapphire PULSE AMD RADEON RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP - Sold by Amazon Resale (Like New Condition) Discount at Checkout",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5031430",
-      "price": 699.0,
-      "metric": 699.0,
-      "title": "ASUS PRIME RX9070 XT OC",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "gpu": [
-    {
-      "id": "hukd-5036537",
-      "price": 280.95,
-      "metric": 280.95,
-      "title": "ASRock Intel Arc B570 Challenger OC 10GB GDDR6 Dual Fan Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5027023",
-      "price": 1599.95,
-      "metric": 1599.95,
-      "title": "PowerColor Radeon AI PRO R9700 32GB GDDR6 PCI-Express Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5039072",
-      "price": 279.99,
-      "metric": 279.99,
-      "title": "Gigabyte NVIDIA GeForce RTX 4060 EAGLE OC Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5027574",
-      "price": 347.99,
-      "metric": 347.99,
-      "title": "Gigabyte AORUS NVIDIA GeForce RTX 5060 Elite 8GB Blackwell Graphics Card (pre order)",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5036281",
-      "price": 239.99,
-      "metric": 239.99,
-      "title": "PowerColor AMD Radeon RX 7600 Fighter 8GB Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5027030",
-      "price": 1399.99,
-      "metric": 1399.99,
-      "title": "ASRock Intel ARC Pro B70 Creator 32GB GDDR6 PCI-Express Graphics Card",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "cpu:9700x": [
-    {
-      "id": "hukd-5039309",
-      "price": 127.1,
-      "metric": 127.1,
-      "title": "Ryzen 7 9700X CPU Processor - £119.10 PayPal ( 8C / 16T / Zen5 / DDR5 / PCI-e 5.0 ) w/code @ CAMHTOO LTD Store(UK Stock)",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "cpu:9950x": [
-    {
-      "id": "hukd-5037376",
-      "price": 341.72,
-      "metric": 341.72,
-      "title": "AMD Ryzen 9 9950X CPU Processor - £316.72 PayPal ( 16C / Socket AM5 / Tray ) @ CAMHTOO LTD Store(UK Stock)",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    }
-  ],
-  "motherboard:b850": [
-    {
-      "id": "hukd-5040931",
-      "price": 179.02,
-      "metric": 179.02,
-      "title": "ASUS ROG Strix B850-A Gaming WiFi AMD ATX motherboard, 14+2+2 power stages, DDR5 slots, four M.2 slots, PCIe 5.0, WiFi 7",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5035248",
-      "price": 189.99,
-      "metric": 189.99,
-      "title": "MSI MPG B850 EDGE TI WIFI Motherboard, ATX, AM5",
-      "ts": "2026-11-21T06:33:08.2447249Z"
-    },
-    {
-      "id": "hukd-5036123",
-      "price": 132.48,
-      "metric": 132.48,
-      "title": "GIGABYTE B850 AORUS Elite WIFI7 Ice Motherboard - White",
-      "ts": "2026-11-21T06:33:08.2447249Z"
+      "id": "hukd-5043676",
+      "price": 164.07,
+      "metric": 164.07,
+      "title": "ASUS TUF GAMING B650-E WIFI AM5 ATX Motherboard",
+      "ts": "2026-11-23T09:52:32.7560191Z"
     }
   ]
 }
